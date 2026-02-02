@@ -1,0 +1,12 @@
+name: Student Test Action
+
+on:
+  workflow_dispatch:  # This lets you click a button to run it
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 24f3004898@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
